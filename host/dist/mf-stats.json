@@ -1,0 +1,112 @@
+{
+  "id": "host",
+  "name": "host",
+  "metaData": {
+    "name": "host",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "host"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": ".",
+      "api": "."
+    },
+    "globalName": "host",
+    "pluginVersion": "0.17.0",
+    "prefetchInterface": false,
+    "publicPath": "/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "import": "react",
+      "name": "react",
+      "version": "19.1.0",
+      "eager": false,
+      "id": "host:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/578.ee80dd29.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^7.7.0",
+      "shareScope": "default",
+      "import": "react-router",
+      "name": "react-router",
+      "version": "7.7.0",
+      "eager": false,
+      "id": "host:react-router",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/17.aa24c965.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "shareScope": "default",
+      "import": "react-dom",
+      "name": "react-dom",
+      "version": "*",
+      "eager": false,
+      "id": "host:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/412.e2217c85.js",
+            "static/js/async/498.456d730f.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "dashboard_module",
+      "consumingFederationContainerName": "host",
+      "federationContainerName": "dashboard_module",
+      "moduleName": "routes",
+      "usedIn": [
+        "src/bootstrap.tsx + 1 modules"
+      ],
+      "entry": "http://localhost:3001/mf-manifest.json"
+    }
+  ],
+  "exposes": []
+}

@@ -1,0 +1,96 @@
+{
+  "id": "host",
+  "name": "host",
+  "metaData": {
+    "name": "host",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "host"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": ".",
+      "api": "."
+    },
+    "globalName": "host",
+    "pluginVersion": "0.17.0",
+    "prefetchInterface": false,
+    "publicPath": "/"
+  },
+  "shared": [
+    {
+      "id": "host:react",
+      "name": "react",
+      "version": "19.1.0",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/578.ee80dd29.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "host:react-router",
+      "name": "react-router",
+      "version": "7.7.0",
+      "singleton": true,
+      "requiredVersion": "^7.7.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/17.aa24c965.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "host:react-dom",
+      "name": "react-dom",
+      "version": "*",
+      "singleton": true,
+      "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/412.e2217c85.js",
+            "static/js/async/498.456d730f.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "dashboard_module",
+      "moduleName": "routes",
+      "alias": "dashboard_module",
+      "entry": "http://localhost:3001/mf-manifest.json"
+    }
+  ],
+  "exposes": []
+}

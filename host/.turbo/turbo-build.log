@@ -1,0 +1,26 @@
+
+
+> host@1.0.0 build /home/davio/dev/rs-sigla-web/apps/host
+> rsbuild build
+
+[1m[38;2;189;255;243m [39m[38;2;189;255;243m [39m[38;2;180;250;236mR[39m[38;2;171;246;229ms[39m[38;2;162;241;222mb[39m[38;2;154;236;216mu[39m[38;2;145;232;209mi[39m[38;2;136;227;202ml[39m[38;2;127;222;195md[39m[38;2;127;222;195m [39m[38;2;118;217;188mv[39m[38;2;109;213;181m1[39m[38;2;101;208;175m.[39m[38;2;92;203;168m4[39m[38;2;83;199;161m.[39m[38;2;74;194;154m8[39m[38;2;74;194;154m
+[39m[22m
+[1m[36minfo   [39m[22m build started...
+[1m[32mready  [39m[22m built in [1m1.41[22m s
+
+[34mFile (web)                               Size       Gzip   [39m
+[2mdist/[22m[32mindex.html[39m                          0.31 kB    [32m0.22 kB[39m
+[2mdist/static/js/async/[22m[36m864.3e6428cf.js[39m     0.76 kB    [32m0.48 kB[39m
+[2mdist/[22m[35mmf-manifest.json[39m                    1.9 kB     [32m0.51 kB[39m
+[2mdist/[22m[35mmf-stats.json[39m                       2.3 kB     [32m0.60 kB[39m
+[2mdist/static/js/async/[22m[36m115.7ac9742e.js[39m     3.6 kB     [32m1.4 kB[39m
+[2mdist/static/js/async/[22m[36m304.5aced1e2.js[39m     3.6 kB     [32m1.4 kB[39m
+[2mdist/static/js/[22m[36mindex.27b500e1.js[39m         6.6 kB     [32m2.6 kB[39m
+[2mdist/static/js/async/[22m[36m307.c2d4130e.js[39m     7.6 kB     [32m2.9 kB[39m
+[2mdist/static/js/[22m[36m667.a6b1f45b.js[39m           73.2 kB    [32m21.8 kB[39m
+[2mdist/static/css/async/[22m[33m864.29d70d8a.css[39m   86.8 kB    [32m13.6 kB[39m
+[2mdist/static/js/async/[22m[36m582.e06d037c.js[39m     171.8 kB   [32m54.6 kB[39m
+[2mdist/static/js/async/[22m[36m994.2d34ed47.js[39m     176.8 kB   [32m56.4 kB[39m
+
+                                [35mTotal:[39m   535.4 kB   [32m156.5 kB[39m
+

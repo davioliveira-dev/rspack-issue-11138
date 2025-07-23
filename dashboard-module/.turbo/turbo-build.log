@@ -1,0 +1,13 @@
+
+
+> dashboard-module@1.0.0 build /home/davio/dev/rs-sigla-web/apps/dashboard-module
+> rsbuild build
+
+[1m[38;2;189;255;243m [39m[38;2;189;255;243m [39m[38;2;180;250;236mR[39m[38;2;171;246;229ms[39m[38;2;162;241;222mb[39m[38;2;154;236;216mu[39m[38;2;145;232;209mi[39m[38;2;136;227;202ml[39m[38;2;127;222;195md[39m[38;2;127;222;195m [39m[38;2;118;217;188mv[39m[38;2;109;213;181m1[39m[38;2;101;208;175m.[39m[38;2;92;203;168m4[39m[38;2;83;199;161m.[39m[38;2;74;194;154m9[39m[38;2;74;194;154m
+[39m[22m
+[ Module Federation Rsbuild Plugin ] Detect that CORS options are not set, mf Rsbuild plugin will add default cors header: server.headers["Access-Control-Allow-Headers"] = "*". It is recommended to specify an allowlist of trusted origins in "server.cors" instead.
+View https://module-federation.io/guide/troubleshooting/other.html#cors-warn for more details.
+[1m[36minfo   [39m[22m build started...
+Panic occurred at runtime. Please file an issue on GitHub with the backtrace below: https://github.com/web-infra-dev/rspack/issues: panicked at crates/rspack_core/src/lib.rs:342:26:
+Chunk(ChunkUkey(Ukey(18), PhantomData<rspack_core::chunk::Chunk>)) not found in ChunkByUkey
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed.[39m
